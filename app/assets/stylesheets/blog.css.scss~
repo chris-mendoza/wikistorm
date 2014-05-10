@@ -9,41 +9,42 @@ background:url('congruent_outline.png');
 background-repeat: repeat-y repeat-x;
 }
 
-h1
-{
-margin-bottom: 0;
-}
-
 #container
 {
-width: 100%;
+width: 60%;
 height: 100%;
 float: center;
+position: relative;
 margin: 0 auto;
 }
 
 #header
 {
-height: 79px;
-padding:19px 0 0;
-position: relative;
+height: 80px;
 margin: 0px;
+float:left;
+color:grey;
+font-size: 40px;
 }
 
-#menu
+
+p.menu
 {
-background-color: #FFFFFF;
-height: 500px;
-width: 20%;
-float: left;
+float:right;
+width:50%;
+height: 50px;
+color: grey;
 }
 
 #content
 {
-background-color: clear;
+background-color: #FFFFFF;
+-webkit-border-radius: 10px;
+border-radius: 5px;
 height: 500px;
-width: 60%;
-float: left;
+width: 100%;
+float: center;
+opacity:0.6;
 }
 
 #footer
