@@ -24,7 +24,7 @@ height: 80px;
 width: 100%;
 margin: 0px;
 float:left;
-color:green;
+color:gray;
 font-size: 40px;
 }
 
@@ -32,9 +32,10 @@ font-size: 40px;
 p.menu
 {
 float:right;
+text-align:right;
 width:50%;
 height: 50px;
-color: grey;
+color: gray;
 }
 
 #content
