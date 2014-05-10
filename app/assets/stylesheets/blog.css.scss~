@@ -32,7 +32,7 @@ margin: 0px;
 
 #menu
 {
-background-color: clear;
+background-color: #FFFFFF;
 height: 500px;
 width: 20%;
 float: left;
@@ -40,7 +40,7 @@ float: left;
 
 #content
 {
-background-color: #EEEEEE;
+background-color: clear;
 height: 500px;
 width: 60%;
 float: left;
