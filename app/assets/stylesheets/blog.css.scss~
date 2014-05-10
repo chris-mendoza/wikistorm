@@ -1,0 +1,56 @@
+// Place all the styles related to the blog controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html
+{
+background:url('congruent_outline.png');
+background-repeat: repeat-y repeat-x;
+}
+
+h1
+{
+margin-bottom: 0;
+}
+
+#container
+{
+width: 100%;
+height: 100%;
+float: center;
+margin: 0 auto;
+}
+
+#header
+{
+height: 79px;
+padding:19px 0 0;
+position: relative;
+margin: 0px;
+}
+
+#menu
+{
+background-color: clear;
+height: 500px;
+width: 20%;
+float: left;
+}
+
+#content
+{
+background-color: #EEEEEE;
+height: 500px;
+width: 60%;
+float: left;
+}
+
+#footer
+{
+width: 60%;
+background-color: clear;
+clear: both;
+text-align: center;
+}
+
