@@ -7,8 +7,32 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div class="block">
+  <div id="header">
+    <span>WikiStorm</span>
+  </div>
+</div>
+<div class="block">
+<div id="nav">
+  <ul>
+    <li><%= link_to 'Home', "/" %> |</li>
+    <li><%= link_to 'Archive', '/blogs' %> | </li>
+    <li><%= link_to 'Links', '/links' %> | </li>
+    <li><%= link_to 'Contact Us', '/contactus' %></li>
+  </ul>
+ </div>
+</div>
+
+
+<div id="content">
 
 <%= yield %>
+
+</div>
+
+<div id="footer">
+<p>footer</p>
+</div>
 
 </body>
 </html>

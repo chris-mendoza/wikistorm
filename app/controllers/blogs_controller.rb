@@ -1,29 +1,31 @@
 class BlogsController < ApplicationController
+
+  layout "application"
+
+  def index
+    @blog = Blogs.last(5).reverse
+  end
+
   def new
-    @blog = Blog.new
+    @blog = Blogs.new
   end
 
   def create
-    @blog = Blog.new(blog_params)
+    @blog = Blogs.new(blog_params)
 
-    @blog.save
-    redirect_to :blogs
+    if @blog.save
+      redirect_to :blogs
+    else
+      render 'new'
+    end
   end
 
   def show
-    @blog = Blog.all.reverse
+    @blog = Blogs.all.reverse
   end
 
-  def edit
-    @blog = Blogs.find(params([:id]))
-  end
-
-  def update
-    @blog = Blogs.find(params([:id]))
-  end
-  
   private
     def blog_params
-      params.require(:blog).permit(:title, :text)
+      params.require(:blogs).permit(:title, :text)
     end
 end

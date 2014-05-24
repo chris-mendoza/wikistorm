@@ -1,3 +1,95 @@
-// Place all the styles related to the blogs controller here.
+// Place all the styles related to the blog controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+html
+{
+background:url('congruent_outline.png');
+background-repeat: repeat-y repeat-x;
+}
+
+.block
+{
+display: inline-block;
+vertical-align: top;
+width: 45%;
+}
+
+#header span
+{
+font-size: 50px;
+width: 35%;
+margin-left: 50%;
+}
+
+#nav ul{
+padding: 0;
+width: 60%;
+margin-left: 30%;
+color: gray;
+text-align:justify;
+}
+
+#nav li{
+list-style: none;
+display: inline;
+margin: 0 auto;
+padding: 0;
+font-size: 23px;
+}
+
+#header
+{
+text-align: right;
+color: gray;
+font-size: 50%;
+width: 60%;
+}
+
+a:link{
+text-decoration: none;
+color: gray;
+}
+
+a:visited{
+text-decoration: none;
+color: gray;
+}
+
+a:hover{
+text-decoration: underline;
+color: gray;
+}
+
+a:active{
+text-decoration: underline;
+color: gray;
+}
+
+#content
+{
+background-color: gray;
+-webkit-border-radius: 10px;
+border-radius: 5px;
+height: 80%;
+width: 75%;
+opacity:0.6;
+float:center;
+clear: both;
+margin-left: 13%;
+}
+
+p.post
+{
+color: black;
+font-size: 150%;
+}
+
+#footer
+{
+width: 60%;
+background-color: clear;
+clear: both;
+text-align: center;
+}
