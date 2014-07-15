@@ -1,0 +1,14 @@
+<% @blog.each do |i| %>
+<p>
+  <strong>Title:</strong>
+  <%= i.title %>
+  <strong>Date:</strong>
+  <%= i.created_at %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= i.text %>
+</p>
+
+<% end %>
